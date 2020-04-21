@@ -1,3 +1,7 @@
+This is a fork of https://github.com/grncdr/js-capitalize 
+
+This capitalize doesn't fail when null or undefined is passed, simplifying the calls without need to check every time. 
+
 # capitalize
 
 Capitalize the first letter of a string, or all words in a string.
@@ -55,6 +59,30 @@ test('Capitalize each word with original string...', function (t) {
   t.test('...in mixed case', function (t2) {
     t2.plan(1)
     t2.equal(capitalize.words("uNiTeD sTaTeS"), "United States")
+  })
+
+})
+```
+
+Doen't fail on null, undefined or number
+
+```javascript
+test('Does not fail on...', function (t) {
+  t.plan(3)
+
+  t.test('...null', function (t1) {
+    t1.plan(1)
+    t1.equal(capitalize.words(null), null)
+  })
+
+  t.test('...undefined', function (t2) {
+    t2.plan(1)
+    t2.equal(capitalize.words(undefined), undefined)
+  })
+  
+    t.test('...number', function (t3) {
+    t3.plan(1)
+    t3.equal(capitalize.words(3), 3)
   })
 
 })
