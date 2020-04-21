@@ -1,5 +1,5 @@
 {
-  "name": "capitalize",
+  "name": "js-capitalize-nullsafe",
   "version": "2.0.2",
   "description": "capitalize the first letter of a string, or all words in a string",
   "main": "index.js",
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/grncdr/js-capitalize.git"
+    "url": "git://github.com/xavi-dev/js-capitalize-nullsafe.git"
   },
   "bugs": {
     "type": "git",
-    "url": "git://github.com/grncdr/js-capitalize/issues"
+    "url": "git://github.com/xavi-dev/js-capitalize-nullsafe/issues"
   },
-  "homepage": "https://github.com/grncdr/js-capitalize",
+  "homepage": "https://github.com/xavi-dev/js-capitalize-nullsafe",
   "keywords": [
     "capitalize"
   ],
-  "author": "Stephen Sugden <me@stephensugden.com>",
+  "author": "Xavier Juan <xavi@beecubu.com>",
   "license": "MIT"
 }
