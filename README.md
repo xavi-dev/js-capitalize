@@ -1,6 +1,6 @@
 This is a fork of https://github.com/grncdr/js-capitalize 
 
-This capitalize doesn't fail when null or undefined is passed, simplifying the calls without need to check every time. 
+This capitalize doesn't fail when null or undefined is passed, simplifying the calls without the need to check if the string is null in each call. 
 
 # capitalize
 
@@ -64,7 +64,7 @@ test('Capitalize each word with original string...', function (t) {
 })
 ```
 
-Doen't fail on null, undefined or number
+Doesn't fail on null, undefined or number
 
 ```javascript
 test('Does not fail on...', function (t) {
